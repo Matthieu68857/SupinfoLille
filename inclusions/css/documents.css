@@ -1,0 +1,223 @@
+/* ************ DOCUMENTS ************ */
+
+#matieres h2, #documents h2, #telechargements h2
+{
+	padding-bottom:5px; 
+	border-bottom:5px solid #A1C117;
+}
+
+#matieres h2
+{
+	margin-bottom: 0px;
+}
+
+#matieres h3
+{
+	text-align:center; 
+	padding-bottom:2px; 
+	border-bottom:5px solid #474747;
+}
+
+#matieres #choix_promo
+{
+	padding-bottom:5px; 
+	padding-top:5px; 
+	border-bottom:5px solid #A1C117;
+	margin-top: 0px;
+}
+
+#matieres #choix_promo span
+{
+	background: #474747;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	padding:1px;
+	color:white;
+	font-size: 19px;
+}
+
+#matieres
+{
+	width: 18%;
+	float: left;
+	padding:15px; 
+	font-size:16px; 
+}
+#matieres ul {
+	list-style-type:square;
+	font-size:14px;
+}
+
+.matiere
+{
+	cursor: pointer;
+}
+
+.choix_promo:hover
+{
+	color:#A1C117;
+	cursor: pointer;
+}
+
+#matiere_en_cours
+{
+	float:right;
+	color: #A1C117;
+}
+
+#documents
+{
+	width: 50%;
+	float: left;
+	padding:15px; 
+	font-size:16px; 
+}
+
+#liste_documents p
+{
+	font-style: italic;
+	font-size: 16px;
+	text-align: center;
+}
+
+.document
+{
+	cursor: pointer;
+	text-align: center;
+	width: 130px;
+	float: left;
+	height: 120px;
+}
+
+.document img
+{
+	width: 65px;
+}
+
+
+.loaderTelechargement
+{
+	text-align: center;
+	display: none;
+}
+
+#telechargements
+{
+	width: 22%;
+	float: left;	
+	padding:15px; 
+	font-size:16px; 
+}
+
+#liste_telechargements
+{
+	padding: 5px;
+}
+
+#liste_telechargements span
+{
+	font-style: italic;
+	font-size: 16px;
+}
+
+.liste_telechargements_active
+{
+	background: #414246;
+	color: white;
+}
+
+.liste_telechargements_hover
+{
+	border:3px solid #A1C117;
+}
+
+#bouton_telecharger, #bouton_vider
+{
+	background: #A1C117;
+	color: white;
+	border: 1px solid #474747;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+#bouton_proposer
+{
+	background: #474747;
+	color: white;
+	border: 1px solid #474747;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+#telechargements_actions
+{
+	text-align: center;
+}
+
+/* ************ PROPOSER DOCUMENT ************ */
+
+#proposerDocument
+{
+	padding:15px; 
+	font-size:16px;
+	width: 60%; 
+	float: left;
+}
+
+#proposerDocument h2, #derniersDocuments h2
+{
+	padding-bottom:5px; 
+	border-bottom:5px solid #A1C117;
+}
+
+#proposerDocument h2 div
+{
+	float: right;
+	display: none;
+}
+
+#proposerDocument select
+{
+	font-size: 16px;
+	width: 360px;
+}
+
+#proposerDocument p
+{
+	font-style: italic;
+}
+
+#proposerDocument strong
+{
+	display: block;
+	float: left;
+	width: 230px;
+}
+
+#proposerDocument input[type=text]
+{
+	width: 350px;	
+}
+
+
+#proposerDocument input[type=button]
+{
+	background: #A1C117;
+	color: white;
+	border: 1px solid #474747;
+	font-size: 18px;
+	cursor: pointer;	
+}
+
+#derniersDocuments
+{
+	padding:15px; 
+	font-size:16px;
+	width: 33%; 
+	float: left;
+}
+
+#proposerDocument p.uploadInfos
+{
+	color: #065700;
+}

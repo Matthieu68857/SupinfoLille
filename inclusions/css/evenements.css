@@ -1,0 +1,151 @@
+/* ************ EVENEMENTS ************ */
+
+.event 
+{
+	margin: 0; padding: 90px 20px 20px;
+	position: relative;
+	margin: auto;
+	width: 560px;
+}
+
+.event_header 
+{
+	background: url(../../images/event_bg.gif) repeat-x;
+	float: left;
+	width: 600px;
+	position: absolute;
+	left: 0; top: 0;
+}
+
+.date 
+{
+	background: url(../../images/date_bg.gif) no-repeat;
+	width: 46px; height: 57px;
+	float: left;
+	padding: 3px 5px 3px 0;
+	text-align: center;
+	font-size: 2.1em;
+	position: absolute;
+	left: -50px; top: 0;
+	line-height: 1.1;
+}
+
+.date strong, .date small 
+{
+	font-size: 0.5em;
+	text-transform: uppercase;
+	display: block;
+}
+
+span.participants 
+{
+	position: absolute;
+	right: -75px; top: -10px;
+	background: url(../../images/participants_bubble.gif) no-repeat;
+	width: 150px; height: 39px;
+	padding: 7px 0 0;
+	text-align: center;
+	color: #fff;
+	font-size: 1.6em;
+	text-decoration: none;
+}
+
+.event_header h2 
+{ 
+	margin: 0; padding: 0 25px 0 10px; 
+	font: normal 2.2em Georgia, "Times New Roman", Times, serif; 
+	height: 62px; line-height: 62px;
+	text-shadow: 1px 1px 1px #cfeb7f;
+	color: white;
+}
+
+.event_header p
+{ 
+	font-size: 0.9em; 
+	background: url(../../images/ssevent_bg.gif) no-repeat 10px bottom; 
+	height: 27px; line-height: 27px; 
+	margin: 0; padding: 0 10px 0 60px; 
+	color: #fff;
+}
+
+.event_header p span span, .event_header p span em 
+{
+	float: right;
+}
+
+.event_header p span span
+{
+	color: #A1C117;
+	cursor: pointer;
+}
+
+.event_header p span .jeneparticipeplus:hover
+{
+	color: red;
+}
+
+.event_header p span .jeparticipe:hover
+{
+	color: white;
+}
+
+.event p
+{
+	font-size: 15px;
+}
+
+.ilsparticipent img
+{
+	width: 40px;
+	margin: 10px;
+	margin-top: 0px;
+}
+
+#pagesEvenements
+{
+	text-align: center;
+}
+
+#pagesEvenements a
+{
+	padding: 3px;
+	background: #474747;
+	border: 1px solid black;
+	color: white;
+	margin-right: 10px;
+}
+
+#pagesEvenements .pageEvenementsActive
+{
+	background: #A1C117;
+}
+
+#evenements h2
+{
+	padding-bottom:5px; 
+	border-bottom:5px solid #A1C117;
+}
+
+#evenements h2 .inactif
+{
+	color: #A1C117;
+	cursor: pointer;
+}
+
+#evenements h2 .inactif:hover
+{
+	color: inherit;
+}
+
+#evenements h2 div
+{
+	float: right;
+}
+
+#evenements
+{
+	padding:15px; 
+	font-size:16px;
+	width: 90%;
+	margin: auto; 
+}

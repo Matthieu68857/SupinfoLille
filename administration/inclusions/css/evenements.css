@@ -1,0 +1,117 @@
+/* ************************ ADMIN EVENEMENTS ************************ */
+
+#liste_evenements, #editer_evenements
+{
+	padding:15px; 
+	font-size:16px;
+	width: 45%; 
+	float: left;
+}
+
+#liste_evenements h2, #editer_evenements h2
+{
+	padding-bottom:5px; 
+	border-bottom:5px solid #A1C117;
+}
+
+#liste_evenements h2 div
+{
+	float: right;
+	color: #A1C117;
+	cursor: pointer;
+}
+
+#liste_evenements h2 div:hover
+{
+	color: inherit;
+}
+
+#liste_evenements table
+{
+	width: 100%;
+	text-align: center;
+	border-spacing: 2px 2px;
+	border-collapse: collapse;
+}
+
+#liste_evenements th, td
+{
+	display: table-cell;
+}
+
+#liste_evenements th
+{	
+	background: #414246;
+	border-collapse: collapse;
+	color: white;
+	border: 1px dotted #666;
+	padding: 5px;
+}
+
+#liste_evenements td
+{	
+	border-collapse: collapse;
+	border: 1px dotted #666;
+	padding: 5px;
+}
+
+#liste_evenements td img
+{
+	width: 25px;
+	cursor: pointer;
+}
+
+#liste_evenements .event_titre
+{
+	width: 50%;
+}
+
+#liste_evenements .event_date
+{
+	width: 20%;
+}
+
+#liste_evenements .event_participants
+{
+	width: 5%;
+}
+
+#liste_evenements .event_actions
+{
+	width: 20%;
+}
+
+#editer_evenements strong
+{
+	display: block;
+	float: left;
+	width: 100px;
+}
+
+#editer_evenements textarea
+{
+	width: 100%;
+	height: 80px;
+}
+
+#editer_evenements input
+{
+	border: 1px solid #474747;
+	font-size: 16px;
+	width: 300px;
+}
+
+#editer_evenements input[name=date]
+{
+	width: 105px;
+}
+
+#editer_evenements input[type=submit]
+{
+	background: #A1C117;
+	color: white;
+	border: 1px solid #474747;
+	font-size: 18px;
+	cursor: pointer;
+	width: auto;	
+}

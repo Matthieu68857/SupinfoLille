@@ -1,0 +1,4 @@
+AuthName "Page d'administration protégée"
+AuthType Basic
+AuthUserFile "/homez.93/makemywe/supinfo-lille.com/api/.htpasswd"
+Require valid-user

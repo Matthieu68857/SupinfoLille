@@ -1,0 +1,427 @@
+/* ************ GLOBAL ************ */
+
+body 
+{
+	background:url(../../images/bg.jpg) repeat-x #fff;
+	margin:0;
+	color: #474747;
+	font-family: 'Trebuchet MS', Arial, sans-serif;
+	font-size:12px;
+}
+
+a img 
+{
+	border:none;
+}
+
+a 
+{
+	color:#333;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+a:hover 
+{
+	text-decoration:none;
+	color:#666;
+}
+
+h1 
+{
+	border-bottom:5px solid #A1C117;
+	padding-bottom:5px;
+}
+
+#wrapper 
+{
+	margin:auto;
+	width:1000px;
+}
+
+#logo 
+{
+	background:url(../../images/logo.jpg);
+	width:434px;
+	height:98px;
+	float:left;
+	cursor:pointer;
+}
+
+#menu 
+{
+	background:url(../../images/menu.jpg);
+	width:566px;
+	height:98px;
+	float:left;
+}
+
+#fondblanc 
+{
+	width: 100%;
+	background:white;
+	clear:both;
+}
+
+#subwrapper 
+{
+	width:1000px;
+	margin:auto;
+	_height:470px; /* pour IE */
+	min-height:470px; 
+}
+
+#wrapfooter 
+{
+	width:100%;
+	height:314px;
+	background:url(../../images/bgfoot.jpg);
+}
+
+#footer 
+{
+	background: url(../../images/footer.jpg);
+	width:1000px;
+	height:314px;
+	margin:auto;
+	position:relative;
+}
+
+#contenu 
+{
+	float:right;
+	width:390px;
+	height:460px;
+	font-size:12px;
+	overflow:hidden;
+}
+
+.finnews 
+{
+	border-top:3px solid #A1C117;
+	padding-top:5px;
+}
+
+.smiley
+{
+	width: 18px;
+	height: 18px;
+}
+
+#liens {
+	float:right;
+	margin-right:435px;
+	margin-top:28px;
+	line-height:15px;
+}
+
+#liens ul {
+	list-style-type:square;
+}
+
+#liens a {
+	color:#999999; 
+}
+
+#liens a:hover {
+	color: #fff;
+}
+
+#connectes
+{
+	float:right; 
+	margin-right:-50px; 
+	margin-top:30px; 
+	color:white; 
+	width: 600px; 
+	height: 70px;
+	overflow: hidden;
+}
+
+#connectes a
+{
+	color: white;
+	font-weight: inherit;
+}
+
+#connectes a:hover
+{
+	color: #A1C117;
+}
+
+#chat a
+{
+	color: black;
+}
+
+#chat a:hover
+{
+	color: #A1C117;
+}
+
+#encartmenu {
+	margin-top:20px;
+	margin-left:80px;
+}
+
+#photo-haut {
+	float:left;
+}
+#textmenu {
+	float:left;
+	margin-top:12px;
+}
+#textmenu p {
+	margin-left:30px;
+	color:#777;
+}
+#textmenu a {
+	color:#999;
+}
+#textmenu a:hover {
+	color:#fff;	
+}
+#textmenu span {
+	margin-left:15px;
+}
+
+/* ************ NOTIFICATIONS ************ */
+
+#notification_entraide
+{
+	position:absolute; 
+	margin-left:567px; 
+	margin-top:-8px;
+}
+
+#notification_entraide span
+{
+	position:absolute; 
+	color: white; 
+	font-size: 24px; 
+	margin-left: 14px; 
+	margin-top: 6px;
+}
+
+/* ************ CONNEXION ************ */
+
+#top_connexion
+{
+	width:100%;
+	height:110px;
+	background:url(../../images/bgfoot.jpg);
+}
+
+#connexion
+{
+	width:500px;
+	margin: auto;
+	margin-top: 20px;
+	color: white;
+	font-size: 18px;
+}
+#video {
+	margin: auto;
+	margin-left:-30px;
+	margin-top: 20px;
+	margin-bottom:10px;
+}
+
+	
+#connexion fieldset
+{
+	border-color: #A1C117;
+	border-left: none;
+	border-right: none;
+}
+
+#connexion fieldset div
+{
+	text-align: center;
+	padding: 15px;
+}
+
+#connexion input[type=text], #connexion input[type=password]
+{
+	background: #A1C117;
+	color: white;
+	border: none;
+	font-size: 18px;
+	margin-left: 10px;
+	-moz-border-radius : 7px;
+	-webkit-border-radius : 7px;
+	padding:3px;
+}
+
+#connexion input[type=submit]
+{
+	background: transparent;
+	color: #A1C117;
+	border: 1px solid #A1C117;
+	font-size: 20px;
+	cursor: pointer;
+	margin-top: 15px;
+	-moz-border-radius : 7px;
+	-webkit-border-radius : 7px;
+}
+
+#echec_connexion
+{
+	color:red; 
+	text-align:center; 
+	font-style:italic;
+}
+
+/* ************ ENCARTS ************ */
+
+.encart 
+{
+	width: 65px;
+	height: 465px;
+	float:left;
+	cursor:pointer;
+	margin:8px 1px;
+}
+
+#encart_compte 
+{
+	background:url(../../images/encarts/moncompte.png);
+}
+
+#encart_document 
+{
+	background:url(../../images/encarts/documents.png);
+}
+
+#encart_entraide 
+{
+	background:url(../../images/encarts/entraide.png);
+}
+
+#encart_event 
+{
+	background:url(../../images/encarts/events.png);
+}
+
+#encart_sondage 
+{
+	background:url(../../images/encarts/sondages.png);
+}
+
+#encart_etudiant 
+{
+	background:url(../../images/encarts/etudiants.png);
+}
+
+#encart_sbn 
+{
+	background:url(../../images/encarts/sbn.png);
+}
+
+#encart_community 
+{
+	background:url(../../images/encarts/community.png);
+}
+
+#encart_cafeteria 
+{
+	background:url(../../images/encarts/cafeteria.png);
+}
+
+#encart_compte2 
+{
+	background:url(../../images/encarts/moncompte_hover.png);
+	margin:0 !important;
+	display:none;
+}
+
+#encart_document2 
+{
+	background:url(../../images/encarts/documents_hover.png);
+	margin:0 !important;
+	display:none;
+}
+
+#encart_entraide2 
+{
+	background:url(../../images/encarts/entraide_hover.png);
+	margin:0 !important;
+	display:none;
+}
+
+#encart_event2 
+{
+	background:url(../../images/encarts/events_hover.png);
+	margin:0 !important;
+	display:none;
+}
+
+#encart_sondage2 
+{
+	background:url(../../images/encarts/sondages_hover.png);
+	margin:0 !important;
+	display:none;
+}
+
+#encart_etudiant2 
+{
+	background:url(../../images/encarts/etudiants_hover.png);
+	margin:0 !important;
+	display:none;
+}
+
+#encart_sbn2 
+{
+	background:url(../../images/encarts/sbn_hover.png);
+	margin:0 !important;
+	display:none;
+}
+
+#encart_community2 
+{
+	background:url(../../images/encarts/community_hover.png);
+	margin:0 !important;
+	display:none;
+}
+
+#encart_cafeteria2 
+{
+	background:url(../../images/encarts/cafeteria_hover.png);
+	margin:0 !important;
+	display:none;
+}
+
+/* ************ NOTIFICATIONS ************ */
+
+#purr-container {
+	position: fixed;
+	top: 0;
+	right: 0; 
+}
+
+.notice {
+	position: relative;
+	width: 324px;
+}
+.notice .close	{position: absolute; top: 12px; right: 12px; display: block; width: 18px; height: 17px; text-indent: -9999px; background: url(../../inclusions/javascript/purr/purrClose.png) no-repeat 0 10px;}
+
+.notice-body {
+	min-height: 50px;
+	padding: 22px 22px 0 22px;
+	background: url(../../inclusions/javascript/purr/purrTop.png) no-repeat left top;
+	color: #f9f9f9;
+}
+	.notice-body img	{margin: 0 10px 0 0; float: left; height:50px;}
+	.notice-body h3	{margin: 0; font-size: 1.1em; margin-left:5px;}
+	.notice-body p		{margin: 5px 0 0 60px; font-size: 0.8em; line-height: 1.4em;}
+
+.notice-bottom {
+	height: 22px;
+	background: url(../../inclusions/javascript/purr/purrBottom.png) no-repeat left top;
+}
+
+#social {
+	position:absolute;
+	top:125px;
+	left:650px;
+}

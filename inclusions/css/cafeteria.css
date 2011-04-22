@@ -1,0 +1,267 @@
+/* ************************ CAFETERIA ************************ */
+
+#solde_historique_cafeteria, #cafeteria
+{
+	padding:15px; 
+	font-size:16px; 
+	float:left; 
+	width:45%;
+}
+
+#solde_historique_cafeteria #solde
+{
+	font-size: 25px;
+}
+
+#solde_historique_cafeteria h2, #cafeteria h2
+{
+	padding-bottom:5px; 
+	border-bottom:5px solid #A1C117;
+}
+
+#solde_historique_cafeteria table, #cafeteria table
+{
+	width: 100%;
+	text-align: center;
+	border-spacing: 2px 2px;
+	border-collapse: collapse;
+	clear: both;
+}
+
+#solde_historique_cafeteria th, #solde_historique_cafeteria td #cafeteria th, td
+{
+	display: table-cell;
+}
+
+#solde_historique_cafeteria th, #cafeteria th
+{	
+	background: #414246;
+	border-collapse: collapse;
+	color: white;
+	border: 1px dotted #666;
+	padding: 5px;
+}
+
+#solde_historique_cafeteria td, #cafeteria td
+{	
+	border-collapse: collapse;
+	border: 1px dotted #666;
+	padding: 5px;
+}
+
+.student_found 
+{
+	height:50px;
+	border:1px dashed #666;
+}
+
+#cafet-student p 
+{
+	margin:auto;
+}
+
+#cafeteria .type_produit
+{
+	width: 28%;
+	color: white;
+	float: left;
+	background: #A1C117;
+	padding:8px;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	cursor: pointer;
+	margin-left: 6px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+#cafeteria img.produit
+{
+	width: 50px;
+	height: 50px;
+}
+
+#cafeteria #th_produits
+{
+	width: 60px;
+}
+
+#cafeteria .type_produit_selected
+{
+	background: #414246;
+}
+
+/* ************************ STATISTIQUES CAFETERIA ************************ */
+
+#cafeteria_stats
+{
+	font-size:16px;
+}
+
+#cafeteria_top_clients, #cafeteria_stats_diverses
+{
+	padding:15px;  
+	float:left; 
+	width:45%;
+}
+
+#cafeteria_stats h2
+{
+	padding-bottom:5px; 
+	border-bottom:5px solid #A1C117;
+}
+
+#cafeteria_stats table
+{
+	width: 100%;
+	text-align: center;
+	border-spacing: 2px 2px;
+	border-collapse: collapse;
+	clear: both;
+	font-size: 15px;
+}
+
+#cafeteria_stats th, #cafeteria_stats td
+{
+	display: table-cell;
+}
+
+#cafeteria_stats th
+{	
+	background: #414246;
+	border-collapse: collapse;
+	color: white;
+	border: 1px dotted #666;
+	padding: 5px;
+}
+
+#cafeteria_stats td
+{	
+	border-collapse: collapse;
+	border: 1px dotted #666;
+	padding: 5px;
+}
+
+/* ************************ BADGES ************************ */
+
+#badges
+{
+	font-size:16px;
+}
+
+#menuListeBadges, #listeBadges
+{
+	padding:15px;  
+	float:left; 
+	margin-top: 15px;
+}
+
+#menuListeBadges
+{
+	width: 25%;
+}
+
+#menuListeBadges .separateur
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #CCC;
+}
+
+#menuListeBadges .choix
+{
+	margin-top: 6px;
+	margin-bottom: 6px;
+	padding-right: 4px;
+	padding-left: 4px;
+	font-weight: bold;
+	font-size: 14px;
+	color: #666;
+	padding-left: 10px;
+	cursor: pointer;
+}
+
+#menuListeBadges .selected
+{
+	background: #A1C117;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	color: white;
+	padding: 5px;
+}
+
+#menuListeBadges .count
+{
+	font-size: 18px;
+	font-weight: bold;
+	float: right;
+	padding-right: 5px;
+	margin-top: -2px;
+}
+
+
+#listeBadges
+{
+	width: 68%;
+	background-color: #F9F9F9;
+	border: 1px solid #CCC;
+	margin-bottom: 13px;
+	padding: 10px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#listeBadges #affichageStats, #listeBadges #affichagePotentiel
+{
+	display: none;
+}
+
+#listeBadges .badge 
+{	
+	float: left;
+	width: 146px;
+	height: 146px;
+	margin: 5px;
+	text-align: center;
+	background: white;
+	padding: 6px;
+	border: 1px solid #E0E0E0;
+}
+
+#listeBadges .badge img
+{
+	width: 115px;
+	height: 115px;
+}
+
+#listeBadges .badge img.banner
+{
+	position: absolute;
+	width: 62px;
+	height: 62px;
+	margin-top: -11px;
+	margin-left: -12px;
+}
+
+#listeBadges .badge .contentValidation, #listeBadges .badge .contentWinners, #listeBadges .badge .contentPotentiel
+{
+	display: none;
+}
+
+#listeBadges .badge img.aucunGagnant
+{
+	opacity: 0.1;
+}
+
+#listeBadges .badge img.unGagnant
+{
+	opacity: 0.5;
+}
+
+#listeBadges #affichagePotentiel .progressbar
+{
+	height: 15px;
+	margin-top: 5px;
+}

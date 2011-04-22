@@ -1,0 +1,160 @@
+/* ************************ ADMIN DOCUMENTS + MATIERES ************************ */
+
+#gerer_documents, #actionsDiversesDocuments
+{
+	padding:15px; 
+	font-size:16px;
+	width: 55%; 
+	float: left;
+}
+
+#actionsDiversesDocuments
+{
+	width: 35%; 
+}
+
+#actionsDiversesDocuments h2, #gerer_documents h2
+{
+	padding-bottom:5px; 
+	border-bottom:5px solid #A1C117;
+}
+
+#gerer_documents h2 div
+{
+	float: right;
+}
+
+#gerer_documents table
+{
+	width: 100%;
+	text-align: center;
+	border-spacing: 2px 2px;
+	border-collapse: collapse;
+}
+
+#gerer_documents th, td
+{
+	display: table-cell;
+}
+
+#gerer_documents th
+{	
+	background: #414246;
+	border-collapse: collapse;
+	color: white;
+	border: 1px dotted #666;
+	padding: 5px;
+}
+
+#gerer_documents td
+{	
+	border-collapse: collapse;
+	border: 1px dotted #666;
+	padding: 5px;
+}
+
+#gerer_documents td img
+{
+	width: 25px;
+	cursor: pointer;
+}
+
+.cursusDocument
+{
+	width: 30%;
+}
+
+.nomDocument
+{
+	width: 40%;
+}
+
+.nomDocument input
+{
+	width: 90%;
+	font-size: 16px;
+}
+
+.dlsDocument
+{
+	width: 5%;
+}
+
+.actionsDocument
+{
+	width: 25%;
+}
+
+#pagesDocuments
+{
+	text-align: center;
+}
+
+#pagesDocuments a
+{
+	padding: 3px;
+	background: #474747;
+	border: 1px solid black;
+	color: white;
+	margin-right: 10px;
+}
+
+#pagesDocuments .pageDocumentsActive
+{
+	background: #A1C117;
+}
+
+#ajout_matieres h2 div
+{
+	float: right;
+}
+
+#ajout_matieres input[type=text]
+{
+	background: #474747;
+	color: white;
+	border: 1px solid #474747;
+	font-size: 18px;
+	width:190px;
+}
+
+#ajout_matieres input[type=submit]
+{
+	background: #A1C117;
+	color: white;
+	border: 1px solid #474747;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+#ajout_matieres label
+{
+	font-size: 25px;
+	cursor: pointer;
+	padding-right: 10px;
+}
+
+#ajout_matieres strong
+{
+	display: block;
+	float: left;
+	width: 147px;
+	font-size: 20px;
+}
+
+#ajout_matieres #strongCursus
+{
+	width: 90px;
+}
+
+#statsDocuments strong
+{
+	font-variant: small-caps;
+	font-size: 19px;
+}
+
+#statsDocuments span
+{
+	color: #A1C117;
+	font-weight: bold;
+}

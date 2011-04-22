@@ -1,0 +1,145 @@
+/* ************ MON COMPTE ************ */
+
+#moncompte
+{
+	padding:15px; 
+	font-size:16px; 
+	float:left; 
+	width:45%;
+}
+
+#mesinformations
+{
+	padding:15px; 
+	font-size:16px; 
+	float:left; 
+	width:45%;
+}
+
+#moncompte h2, #mesinformations h2
+{
+	padding-bottom:5px; 
+	border-bottom:5px solid #A1C117;
+}
+
+#moncompte #identite, #profile_student #identite
+{
+	float:left; 
+	width:50%; 
+	text-align:center;
+}
+
+#moncompte #identite img, #profile_student #identite img
+{
+	height:130px; 
+	border:3px solid black;
+}
+
+#moncompte #identite2, #profile_student #identite2
+{
+	float:left; 
+	width:50%; 
+	font-size:18px; 
+	font-weight:bold
+}
+
+#moncompte #identite2 span, #profile_student #identite2 span
+{
+	font-variant: small-caps;
+}
+
+#compte_infos, #mdp
+{
+	clear:both; 
+	margin-top:10px;
+}
+
+#compte_infos span, 
+#compte_infos img, 
+#mesinformations form span, 
+#mesinformations form img,
+#profile_student #identite2 img,
+#profile_student #identite2 span
+{
+	vertical-align: middle; 
+	display: inline-block;
+}
+
+#mesinformations form img
+{
+	width: 48px;
+	height: 48px;
+}
+
+#editer_informations, #changer_mdp
+{
+	cursor: pointer;
+	color: #A1C117;
+	float:right;
+}
+
+#editer_informations:hover, #changer_mdp:hover
+{
+	color: inherit;
+}
+
+#mesinformations h2 input, #moncompte h2 input
+{
+	background: #474747;
+	color: white;
+	border: 1px solid #474747;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+#mesinformations form input[type=text]
+{
+	border: 1px solid #474747;
+	font-size: 16px;
+	width:215px;
+}
+
+#mdp
+{
+	display:none;
+}
+
+#echec_chgMdp
+{
+	color:red; 
+	text-align:center; 
+	font-style:italic;
+}
+
+#reussite_chgMdp
+{
+	color:green; 
+	text-align:center; 
+	font-style:italic;
+}
+
+#mdp label
+{
+	display: block;
+	float: left;
+	width: 200px;
+}
+
+#mdp input[type=password]
+{
+	border: 1px solid #474747;
+	background: #474747;
+	color: white;
+	font-size: 18px;
+	margin-top: -3px;
+}
+
+#mdp input[name=nouveau_mdp]
+{
+	color: #A1C117;
+}
+
+#mdp input[name=confirmation_mdp]
+{
+	color: red;
+}

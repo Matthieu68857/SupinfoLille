@@ -1,0 +1,63 @@
+/* ************************ OUTILS STA ************************ */
+
+#outilsSTA
+{
+	padding:15px; 
+	font-size:16px;
+	width: 90%; 
+}
+
+#outilsSTA label
+{
+	cursor: pointer;
+}
+
+#outilsSTA h2
+{
+	padding-bottom:5px; 
+	border-bottom:5px solid #A1C117;
+}
+
+#outilsSTA #randomSujet, #outilsSTA #randomStudent
+{
+	text-align: center;
+}
+
+#outilsSTA #randomSujet input[type=button], #outilsSTA #randomStudent input[type=button]
+{
+	background: #A1C117;
+	color: white;
+	border: 1px solid #474747;
+	font-size: 18px;
+	cursor: pointer;
+	width: auto;	
+}
+
+
+#outilsSTA #randomSujet #randomSujetReponse
+{
+	font-size: 35px;
+	width:200px;
+	border: dotted 2px red;
+	padding: 5px;
+	margin: auto;
+	margin-top: 20px;
+	display: none;
+}
+
+#outilsSTA #randomStudent #randomStudentReponse img.stud
+{
+	height: 150px;
+}
+
+#outilsSTA #randomStudent #randomStudentReponse
+{
+	font-size: 15px;
+	font-weight: bold;
+	width:200px;
+	border: dotted 2px red;
+	padding: 5px;
+	margin: auto;
+	margin-top: 20px;
+	display: none;
+}

@@ -1,0 +1,380 @@
+/* ************ PROJETS ************ */
+
+#administrerProjet #supprimerProjet
+{
+	text-align:center; 
+	font-size:20px;
+}
+
+#administrerProjet #supprimerProjet span
+{
+	color:red
+}
+
+#administrerProjet #gererParticipants .participant
+{
+	margin: 10px;
+	width: 105px;
+	height: 100px;
+	text-align: center;
+	float: left;
+}
+
+#administrerProjet #gererParticipants .participant img
+{
+	width: 55px;
+}
+
+#projets h2, #administrerProjet h2
+{
+	padding-bottom:5px; 
+	border-bottom:5px solid #A1C117;
+}
+
+#projets h2 .inactif
+{
+	color: #A1C117;
+	cursor: pointer;
+}
+
+#projets h2 .inactif:hover
+{
+	color: inherit;
+}
+
+#projets h2 div, #administrerProjet h2 div
+{
+	float: right;
+}
+
+#projets, #detailsProjet, #administrerProjet
+{
+	padding:15px; 
+	font-size:16px;
+	width: 90%;
+	margin: auto; 
+}
+
+#fail_ajout_projet, #fail_details_projet
+{
+	color: red;
+	font-weight: bold;
+	text-align: center;
+}
+
+#succeed_ajout_projet
+{
+	color: #A1C117;
+	font-weight: bold;
+	text-align: center;
+}
+
+.listeProjets
+{
+	width: 100%;
+	text-align: center;
+	border-spacing: 2px;
+	border-collapse: collapse;
+	font-size:11px;
+	margin-top: 15px;
+	font-family: monospace;
+}
+
+.listeProjets th, td
+{
+	display: table-cell;
+}
+
+.listeProjets th
+{	
+	background: #414246;
+	border-collapse: collapse;
+	color: white;
+	border: 1px dotted #666;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.listeProjets td
+{	
+	border-collapse: collapse;
+	border: 1px dotted #666;
+	
+}
+
+.projet_diff, .projet_ico, .projet_membres {
+	width:50px;
+}
+
+.projet_nom {
+	width:280px;
+}
+
+.projet_comp {
+	width:180px;
+}
+
+#categories {
+	margin:10px 0 10px 130px;
+}
+
+#categories div {
+	background:grey;
+	padding:8px;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	color:white;
+	font-weight:bold;
+	float:left;
+	margin-left: 15px;
+	cursor: pointer;
+}
+
+#categories div.categorie_actuelle
+{
+	background:black;
+}
+
+.project
+{
+	margin: 0; padding: 0 20px 20px;
+	position: relative;
+	margin: auto;
+	width: 600px;
+}
+
+.project_header 
+{
+	background: url(../../images/event_bg.gif) repeat-x;
+	float: left;
+	width: 600px;
+}
+
+.dateproject
+{
+	border:1px dotted grey;
+	width: 49px; height: 56px;
+	float: left;
+	padding: 5px 0 0 3px;
+	text-align: center;
+	font-size: 2.1em;
+	margin-left:-53px;
+	line-height: 1.1;
+}
+
+.date strong, .date small 
+{
+	font-size: 0.5em;
+	text-transform: uppercase;
+	display: block;
+}
+
+span.participantsp 
+{
+	position: absolute;
+	right: -75px; top: -10px;
+	background: url(../../images/participants_bubble.gif) no-repeat;
+	width: 150px; height: 39px;
+	padding: 7px 0 0;
+	text-align: center;
+	color: #fff;
+	font-size: 1em;
+	text-decoration: none;
+}
+
+.project_header h2 
+{ 
+	margin: 0; padding: 0 25px 0 10px; 
+	font: normal 1.2em Georgia, "Times New Roman", Times, serif; 
+	height: 62px; line-height: 62px;
+	text-shadow: 1px 1px 1px #cfeb7f;
+	color: white;
+	}
+.project_header .imagep {
+    float: left;
+    height: 50px;
+    margin-right: 10px;
+    margin-top: 6px;
+    width: 50px;
+}
+
+.project_header p
+{ 
+	font-size: 0.9em; 
+	background:#474747; 
+	line-height: 29px; 
+	margin: 0; padding: 0 10px 0 10px; 
+	color: #fff;
+}
+
+.project_header p span span, .project_header p span em 
+{
+	float: right;
+}
+
+.project_header p span span
+{
+	color: #A1C117;
+	cursor: pointer;
+}
+
+.project_header p span .jeneparticipeplus:hover
+{
+	color: red;
+}
+
+.project_header p span .jeparticipe:hover
+{
+	color: white;
+}
+
+.project p
+{
+	font-size: 13px;
+}
+
+.project p.projet_description
+{
+	white-space: pre-wrap;
+}
+
+.lieninscription {
+	float:right; 
+	-moz-border-radius:10px; 
+	-webkit-border-radius:10px; 
+	background: #474747; 
+	color:white; 
+	padding:5px; 
+	margin-right:-5px;
+}
+
+.imgbooster 
+{
+	float:right;	
+}
+
+.imgbooster span 
+{
+	line-height:0.8;
+	float:left;
+	color:white;
+	font-size:10px;
+	font-weight:bold;
+	
+	cursor:default !important;
+	color:white !important;
+	margin:3px;
+}
+
+.imgbooster img 
+{
+	padding:3px;
+	border: 1px dotted white;
+	float:left;
+	margin:3px;
+}
+
+#addProjet h1
+{
+	border: none;
+	font-size: 65px;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+
+#addProjet h3
+{
+	border: none;
+}
+
+#addProjet input
+{
+	border: 1px solid #474747;
+	width: 100%;
+}
+
+#addProjet textarea
+{
+	border: 1px solid #474747;
+	width: 97%;
+	height: 200px;
+}
+
+#addProjet_etape1, #addProjet_etape2, #addProjet_etape3
+{
+	width: 28%;
+	float: left;
+	margin: 10px;
+	padding: 10px;
+	background: #EFEFEF;
+	border: 1px dotted black;
+	height: 400px;
+	-moz-border-radius : 7px;
+	-webkit-border-radius : 7px;
+}
+
+#addProjet_submit
+{
+	width: 100%;
+	clear: both;
+	text-align: right;
+	margin: 10px;
+	padding: 10px;
+	width: 841px;
+}
+
+#addProjet_submit input
+{
+	width: 200px;
+	background: #A1C117;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#modifierProjet input
+{
+	border: 1px solid #474747;
+	width: 100%;
+}
+
+#modifierProjet textarea
+{
+	border: 1px solid #474747;
+	width: 97%;
+	height: 200px;
+}
+
+
+#modifierProjet_etape1, #modifierProjet_etape2, #modifierProjet_etape3
+{
+	width: 28%;
+	float: left;
+	margin: 10px;
+	padding: 10px;
+	background: #EFEFEF;
+	border: 1px dotted black;
+	height: 250px;
+	-moz-border-radius : 7px;
+	-webkit-border-radius : 7px;
+}
+
+#modifierProjet_submit
+{
+	width: 100%;
+	clear: both;
+	text-align: right;
+	margin: 10px;
+	padding: 10px;
+	width: 841px;
+	margin-bottom: -15px;
+}
+
+#modifierProjet_submit input
+{
+	width: 200px;
+	background: #A1C117;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+}

@@ -1,0 +1,559 @@
+/********************** CAFETERIA ***********************/
+
+#cafet-header 
+{
+	margin:auto;
+	width:300px;
+}
+
+#cafet-header  div
+{
+	padding-top:10px;
+}
+#container-basket {
+	width:410px;
+	min-height:360px;
+	float:left;
+	margin-right:70px;
+}
+
+
+#cafet-basket {
+	width:410px;
+	min-height:360px;
+	border:2px dashed #A1C117;
+	padding:20px;
+	margin:15px;
+	-moz-border-radius : 8px;
+	-webkit-border-radius : 8px;
+	border-radius : 8px;
+}
+
+#payer {
+	margin-left: 15px;
+	height:30px;
+    width: 455px;
+	font-weight:bold;
+	font-variant:small-caps;
+	border:2px dashed #A1C117;		
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+}
+
+
+#cafet-products 
+{
+	width:410px;
+	min-height:360px;
+	border:2px dashed #A1C117;
+	padding:20px;
+	margin:15px;
+	float:left;
+	-moz-border-radius : 8px;
+	-webkit-border-radius : 8px;
+	border-radius : 8px;
+}
+
+#cafet-basket 
+{
+	background:url(../../images/notebook.jpg) no-repeat;
+	border:2px dashed #2FF;
+}
+
+#cafet-products h2
+{
+	font-size:13px;
+	text-align:center;
+	margin:2px;
+} 
+
+#cafet-products ul
+{
+	list-style:none;
+	text-align:center;
+	font-size:10px;
+	padding:0;
+}
+
+
+#cafet-products ul li 
+{
+	float:left;
+	margin:6px;
+	padding:5px;
+	border:1px dashed #0FF;
+	width:75px;
+	height:85px;
+	position:relative;
+	overflow:hidden;
+	
+}
+
+#cafet-products li img
+{
+	height:70px;
+	width:75px;
+}
+
+
+
+#cafet-basket {
+	position:relative;
+}
+
+#cafet-basket ul
+{
+	list-style:none;
+	font-size:15px;
+	padding:0;
+	margin-left:50px;
+	margin-top:50px;
+}
+
+#cafet-basket ul li 
+{
+    height: 38px;
+    margin: 5px;
+    padding: 5px;
+}
+
+#cafet-basket ul li:hover
+{
+	opacity:0.8;
+}
+
+
+#cafet-basket li img.item
+{
+    border: 1px dashed #00FFFF;
+    float: left;
+    height: 38px;
+    width: 40px;
+	margin-top:-10px;
+}
+
+#cafet-basket li span.item-text 
+{
+	margin-top:15px;
+	margin-left:30px;
+}
+
+#cafet-basket li span.price
+{
+	float:right; 
+	font-size:18px;
+}
+
+
+.student_found {
+	height:70px;
+	border:1px dashed #666;
+	margin-left:50px;
+}
+
+#cafet-student p {
+	margin:auto;
+	margin-left:55px;
+}
+
+#cafet-student span {
+	font-size:18px;
+	font-weight:bold;
+	font-variant:small-caps;
+}
+
+.item-text {
+	cursor:pointer;
+}
+
+.trash {
+ -moz-box-shadow: 0 0 0.5em #666666;
+    background: none no-repeat scroll 2.5em center #EEEEEE;
+    bottom: 20px;
+    font-size: 1.2em;
+    font-style: italic;
+    height: 30px;
+    line-height: 32px;
+    opacity: 0.6;
+    padding-left: 60px;
+    position: absolute;
+    text-shadow: 0 1px 0 #CCCCCC;
+    width: 250px;
+}
+
+#cafet-basket .hover{
+    opacity:0.7;
+    filter : alpha(opacity=70);
+    -moz-opacity : 0.7;
+    color:#fff;
+    background-color:#cd6a76
+}
+
+#cafet-basket .deleted{
+    background-color:#70cc57;
+    opacity:0.7;
+    filter : alpha(opacity=70);
+    -moz-opacity : 0.7;
+    color:#fff;
+}
+
+#total-container {
+ 	bottom: 20px;
+    font-size: 12px;
+    position: absolute;
+    right: 20px;
+}
+
+#total-container span {
+	font-size:22px;
+}
+
+#cafet-products li span 
+{
+    background-color: #0FFFFF;
+    color: black;
+    display: none;
+    font-size: 75px;
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+
+#cafet-products p {
+	margin-top:0;
+}
+
+#top {
+	margin-top:10px;
+	line-height:30px;
+	text-align:center;
+}
+
+.top_people {
+	background:#888;
+	color:white;
+	padding:3px;
+	font-weight:bold;
+	margin:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+
+.top_people a {
+	color:white;
+}
+
+
+/* ************************ GESTION BADGES ************************ */
+
+
+#check_badges, #valider_badge
+{
+	padding:15px; 
+	font-size:16px; 
+	float:left; 
+	width:45%;
+}
+
+#check_badges h2, #valider_badge h2
+{
+	padding-bottom:5px; 
+	border-bottom:5px solid #A1C117;
+}
+
+#check_badges table
+{
+	width: 100%;
+	text-align: center;
+	border-spacing: 2px 2px;
+	border-collapse: collapse;
+}
+
+#check_badges th, #valider_badge td
+{
+	display: table-cell;
+}
+
+#check_badges th
+{	
+	background: #414246;
+	border-collapse: collapse;
+	color: white;
+	border: 1px dotted #666;
+	padding: 5px;
+}
+
+#check_badges td
+{	
+	border-collapse: collapse;
+	border: 1px dotted #666;
+	padding: 5px;
+}
+
+#check_badges input[type=button], #valider_badge input[type=submit]
+{
+	background: #A1C117;
+	color: white;
+	border: 1px solid #474747;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+#valider_badge input[type=text]
+{
+	background: #414246;
+	border: 1px solid #414246;
+	width: 100px;
+	color: white;
+	font-size: 18px;
+	text-align: center;
+}
+
+#valider_badge form
+{
+	font-size: 20px;
+	text-align: center;
+}
+
+/* ************************ GESTION SOLDE ************************ */
+
+
+#solde_historique_cafeteria, #gestion_solde
+{
+	padding:15px; 
+	font-size:16px; 
+	float:left; 
+	width:45%;
+}
+
+#solde_historique_cafeteria #solde
+{
+	font-size: 25px;
+}
+
+#solde_historique_cafeteria h2, #gestion_solde h2
+{
+	padding-bottom:5px; 
+	border-bottom:5px solid #A1C117;
+}
+
+#solde_historique_cafeteria table, #gestion_solde table
+{
+	width: 100%;
+	text-align: center;
+	border-spacing: 2px 2px;
+	border-collapse: collapse;
+}
+
+#solde_historique_cafeteria th, #solde_historique_cafeteria td #gestion_solde th, td
+{
+	display: table-cell;
+}
+
+#solde_historique_cafeteria th, #gestion_solde th
+{	
+	background: #414246;
+	border-collapse: collapse;
+	color: white;
+	border: 1px dotted #666;
+	padding: 5px;
+}
+
+#solde_historique_cafeteria td, #gestion_solde td
+{	
+	border-collapse: collapse;
+	border: 1px dotted #666;
+	padding: 5px;
+}
+
+#gestion_solde
+{
+	font-size: 18px;
+	text-align: center;
+}
+
+#gestion_solde input[type=submit]
+{
+	background: #A1C117;
+	color: white;
+	border: 1px solid #474747;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+#gestion_solde input[type=text]
+{
+	background: #414246;
+	border: 1px solid #414246;
+	width: 50px;
+	color: white;
+	font-size: 18px;
+	text-align: center;
+}
+
+/* ************************ GESTION Produits ************************ */
+
+#liste_produits, #gestion_produits
+{
+	padding:15px; 
+	font-size:16px; 
+	float:left; 
+	width:45%;
+}
+
+#liste_produits h2, #gestion_produits h2
+{
+	padding-bottom:5px; 
+	border-bottom:5px solid #A1C117;
+}
+
+#liste_produits table
+{
+	width: 100%;
+	text-align: center;
+	border-spacing: 2px 2px;
+	border-collapse: collapse;
+	clear: both;
+}
+
+#liste_produits th, #liste_produits td
+{
+	display: table-cell;
+}
+
+#liste_produits th
+{	
+	background: #414246;
+	border-collapse: collapse;
+	color: white;
+	border: 1px dotted #666;
+	padding: 5px;
+}
+
+#liste_produits td
+{	
+	border-collapse: collapse;
+	border: 1px dotted #666;
+	padding: 5px;
+}
+
+#liste_produits .type_produit
+{
+	width: 28%;
+	color: white;
+	float: left;
+	background: #A1C117;
+	padding:8px;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	cursor: pointer;
+	margin-left: 6px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+#liste_produits .type_produit_selected
+{
+	background: #414246;
+}
+
+#liste_produits img.editer
+{
+	cursor: pointer;
+}
+
+#gestionProduit
+{
+	font-size: 18px;
+	text-align: center;
+}
+
+#gestionProduit input[type=submit]
+{
+	background: #A1C117;
+	color: white;
+	border: 1px solid #474747;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+#gestionProduit input[type=text]
+{
+	background: #414246;
+	border: 1px solid #414246;
+	color: white;
+	font-size: 18px;
+	text-align: center;
+}
+
+#gestionProduit input[name=prix]
+{
+	width: 60px;
+}
+
+/* ************************ LIVE CAFETERIA ************************ */
+
+#liveCafeteria
+{
+	padding:15px; 
+	font-size:16px; 
+	width:800px;
+	margin: auto;
+}
+
+#liveCafeteria h2
+{
+	padding-bottom:5px; 
+	border-bottom:5px solid #A1C117;
+}
+
+#liveCafeteria input[type=text]
+{
+	width: 20px;
+}
+
+#liveCafeteria input[type=button]
+{
+	background: #A1C117;
+	color: white;
+	border: 1px solid #474747;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+#liveCafeteria table
+{
+	width: 100%;
+	text-align: center;
+	border-spacing: 2px 2px;
+	border-collapse: collapse;
+	clear: both;
+}
+
+#liveCafeteria th, #liveCafeteria td
+{
+	display: table-cell;
+}
+
+#liveCafeteria th
+{	
+	background: #414246;
+	border-collapse: collapse;
+	color: white;
+	border: 1px dotted #666;
+	padding: 5px;
+}
+
+#liveCafeteria td
+{	
+	border-collapse: collapse;
+	border: 1px dotted #666;
+	padding: 5px;
+}

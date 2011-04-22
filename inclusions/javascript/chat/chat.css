@@ -1,0 +1,53 @@
+#chat {
+    background:#414246 url(images/header.png) bottom left repeat-x;
+    border:3px solid #1E2126;
+    color:#FFF;
+    font:11px Verdana, Helvetica, sans-serif;
+    padding:10px;
+    width:360px;
+	position:absolute;
+	top:20px;
+}
+#chat * {
+    padding:0;
+    margin:0;
+}
+#chat input[name=user] {
+    background:#FFF url(images/user.gif) left center no-repeat;
+    padding-left:20px;
+}
+#chat input[name=message] {
+    background:#FFF url(images/message.gif) left center no-repeat;
+    padding-left:20px;
+    width:300px;
+}
+#chat input[type=submit]{
+	background: #A1C117;
+	color: white;
+	border: none;
+	padding: 2px;
+	-moz-border-radius:10px 10px 10px 10px;
+	-webkit-border-radius:10px 10px 10px 10px;
+	cursor:pointer;
+}
+#chat h3 {
+    font-family:"Trebuchet MS", Tahoma, sans-serif;
+    margin:0;
+}
+#room {
+    background:#FFF;
+    color:#000;
+    height:217px;
+    margin:10px 0;
+    overflow:auto;    
+}
+#room dt,
+#room dd {
+    padding:5px;
+}
+#room dt {
+    background:#EFEFEF url(images/user.gif) left center no-repeat;
+    border-bottom:1px dotted #CCC;
+    border-top:1px dotted #CCC;
+    padding-left:20px;
+}

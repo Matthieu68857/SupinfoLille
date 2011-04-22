@@ -1,0 +1,39 @@
+/* ************************ ADMIN GESTION ETUDIANTS ************************ */
+
+#EditPromotion select
+{
+	font-size: 16px;
+}
+
+#EditVisites input
+{
+	width: 40px;
+	font-size: 16px;
+}
+
+#initPass
+{
+	text-align: center;
+}
+
+#compte_infos input
+{
+	background: #A1C117;
+	color: white;
+	border: 1px solid #474747;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+#newPass
+{
+	text-align: center;
+	color: red;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#newPass img
+{
+	width: 128px;
+}

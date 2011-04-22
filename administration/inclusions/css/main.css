@@ -1,0 +1,320 @@
+@charset "utf-8";
+
+/* ************ ENCARTS ************ */
+
+/* ************ ENCARTS ************ */
+
+.encart 
+{
+	width: 191px;
+	height: 225px;
+	margin:5px;
+	float:left;
+	cursor:pointer;
+}
+
+#compte 
+{
+	background:url(../../images/community.jpg);
+}
+
+#document 
+{
+	background:url(../../images/document.jpg);
+}
+
+#entraide 
+{
+	background:url(../../images/entraide.jpg);
+}
+
+#event 
+{
+	background:url(../../images/event.jpg);
+}
+
+#sondage 
+{
+	background:url(../../images/sondage.jpg);
+}
+
+#etudiant 
+{
+	background:url(../../images/etudiant.jpg);
+}
+
+#compte2 
+{
+	background:url(../../images/hcommunity.jpg);
+	margin:0 !important;
+	display:none;
+}
+
+#document2 
+{
+	background:url(../../images/hdocument.jpg);
+	margin:0 !important;
+	display:none;
+}
+
+#entraide2 
+{
+	background:url(../../images/hentraide.jpg);
+	margin:0 !important;
+	display:none;
+}
+
+#event2 
+{
+	background:url(../../images/hevent.jpg);
+	margin:0 !important;
+	display:none;
+}
+
+#sondage2 
+{
+	background:url(../../images/hsondage.jpg);
+	margin:0 !important;
+	display:none;
+}
+
+#etudiant2 
+{
+	background:url(../../images/hetudiant.jpg);
+	margin:0 !important;
+	display:none;
+}
+
+#wrappercontenu {
+	padding-top:10px;
+}
+
+#sondage_admin
+{
+	background:url(../../images/sondages.jpg);
+}
+
+#sondage_admin2 
+{
+	background:url(../../images/hsondages.jpg);
+	margin:0 !important;
+	display:none;
+}
+
+#entraide_admin
+{
+	background:url(../../images/entraides.jpg);
+}
+
+#entraide_admin2 
+{
+	background:url(../../images/hentraides.jpg);
+	margin:0 !important;
+	display:none;
+}
+
+#cafet_admin
+{
+	background:url(../../images/cafet.jpg);
+}
+
+#cafet_admin2 
+{
+	background:url(../../images/hcafet.jpg);
+	margin:0 !important;
+	display:none;
+}
+
+#news_admin
+{
+	background:url(../../images/news.jpg);
+}
+
+#news_admin2 
+{
+	background:url(../../images/hnews.jpg);
+	margin:0 !important;
+	display:none;
+}
+
+#etudiants_admin
+{
+	background:url(../../images/etudiants.jpg);
+}
+
+#etudiants_admin2 
+{
+	background:url(../../images/hetudiants.jpg);
+	margin:0 !important;
+	display:none;
+}
+
+#documents_admin
+{
+	background:url(../../images/documents.jpg);
+}
+
+#documents_admin2 
+{
+	background:url(../../images/hdocuments.jpg);
+	margin:0 !important;
+	display:none;
+}
+
+#stats_admin
+{
+	background:url(../../images/stats.jpg);
+}
+
+#stats_admin2 
+{
+	background:url(../../images/hstats.jpg);
+	margin:0 !important;
+	display:none;
+}
+
+#evenements_admin
+{
+	background:url(../../images/events.jpg);
+}
+
+#evenements_admin2 
+{
+	background:url(../../images/hevents.jpg);
+	margin:0 !important;
+	display:none;
+}
+
+#droits_admin
+{
+	background:url(../../images/droits.jpg);
+}
+
+#droits_admin2 
+{
+	background:url(../../images/hdroits.jpg);
+	margin:0 !important;
+	display:none;
+}
+
+#sbn_admin
+{
+	background:url(../../images/sbn.jpg);
+}
+
+#sbn_admin2 
+{
+	background:url(../../images/hsbn.jpg);
+	margin:0 !important;
+	display:none;
+}
+
+#sta_admin
+{
+	background:url(../../images/sta.jpg);
+}
+
+#sta_admin2 
+{
+	background:url(../../images/hsta.jpg);
+	margin:0 !important;
+	display:none;
+}
+
+/* ************ NEWS ************ */
+
+#table_news 
+{
+	border-collapse:collapse;
+	text-align:center;
+	margin-bottom:10px;
+}
+
+#table_news th 
+{
+	border:1px dotted #666;
+	border-collapse:collapse;
+	padding:5px;
+	background:#414246;
+	color:white;
+}
+
+#table_news td 
+{
+	border:1px dotted #666;
+	border-collapse:collapse;
+	padding:5px;
+	background:white;
+}
+
+#tableau 
+{
+	background:#414246;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	padding:10px;
+	float:left;
+	width:480px;
+}
+
+#droite 
+{
+	width:485px;
+	float:right;
+}
+
+#droite h2 
+{
+	margin-left:30px;
+}
+
+#news_ajouter 
+{
+	float:right;
+	padding:8px;
+	background:#333;
+	color:white;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	cursor:pointer;
+}
+
+/* ************************ STATISTIQUES ************************ */
+
+#meilleurs_visiteurs, #meilleurs_documents
+{
+	padding:15px; 
+	font-size:16px;
+	width: 45%; 
+	float: left;
+}
+
+#meilleurs_visiteurs img
+{
+	width: 30px;
+}
+
+#meilleurs_visiteurs table
+{
+	width: 100%;
+	text-align: center;
+}
+
+#visiteurs_aujourdhui
+{
+	padding:15px; 
+	font-size:16px;
+	width: 93%; 
+}
+
+#meilleurs_visiteurs h2, #meilleurs_documents h2, #visiteurs_aujourdhui h2
+{
+	padding-bottom:5px; 
+	border-bottom:5px solid #A1C117;
+}
+
+#visiteurs_aujourdhui img
+{
+	width: 50px;
+	margin: 10px;
+}

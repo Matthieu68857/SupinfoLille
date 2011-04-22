@@ -1,0 +1,43 @@
+##### Options
+
+SetEnv REGISTER_GLOBALS 0
+SetEnv PHP_VER 5
+Options -Indexes
+RewriteEngine on
+
+##### Maintenance
+
+# RewriteCond %{REQUEST_URI} !/maintenance.html$
+# RewriteCond %{REMOTE_ADDR} !^86\.73\.250\.58
+# RewriteCond %{REMOTE_ADDR} !^86\.210\.156\.137
+# RewriteCond %{REMOTE_ADDR} !^84\.100\.100\.225
+# RewriteCond %{REMOTE_ADDR} !^193\.251\.95\.30
+# RewriteCond %{REMOTE_ADDR} !^82\.240\.118\.217
+# RewriteRule $ /maintenance.html [R=302,L]
+
+##### Plus d'erreurs 404
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule $ /index.php [L]
+
+##### Dossiers interdits
+RewriteCond %{REQUEST_URI} documents/uploads/.*$ [OR]
+RewriteCond %{REQUEST_URI} documents/documents/.*$ [OR]
+RewriteCond %{REQUEST_URI} sbn/fichiers/.*$ [OR]
+RewriteCond %{REQUEST_URI} ^.*svn.*$
+RewriteRule $ /index.php [L]
+
+##### URL Rewriting
+
+#RewriteBase /
+
+#RewriteRule ^p-([a-z]*)$ /$1/index.php [L]
+#RewriteRule ^([a-z]*)_2$ /$1/$1.php [L]
+#RewriteRule ^([a-z]*)/([a-z]*)/id/([a-z]*)$ /$1/$2.php?id=$3 [L]
+
+#RewriteRule ^([a-z]*)/([a-z]*)$ /$1/$2.php [L]
+
+#RewriteRule ^cafeteria$    cafeteria/cafeteria.php
+#RewriteRule ^cafet$    cafeteria/cafeteria.php
+#RewriteCond %{REQUEST_FILENAME} -d
+#RewriteRule ^([a-z])$    $1/$1.php
